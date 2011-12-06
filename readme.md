@@ -18,10 +18,12 @@ To use the plugin you first need to upload the files _jquery.trainmatrix.min.js_
 ```
 
 To apply the effect to an element:
+
 ```javascript
 $(element).trainmatrix();
 ```
 To apply the effect to an element with a custom string:
+
 ```javascript
 $(element).trainmatrix({matrixText: 'This text will be used to generate the matrix'});
 ```
