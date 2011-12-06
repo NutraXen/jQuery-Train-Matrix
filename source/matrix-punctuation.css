@@ -1,0 +1,145 @@
+/* Punct ! */
+.punc_exc>.col2>.row1{ background-position: -80px -100px; }
+.punc_exc>.col2>.row2{ background-position: 0px 0px; }
+.punc_exc>.col2>.row3{ background-position: 0px 0px; }
+.punc_exc>.col2>.row4{ background-position: -40px 0px; }
+.punc_exc>.col2>.row5{ background-position: -40px -100px; }
+
+/* Punct , */
+.punc_comma>.col2>.row4{ background-position: 0px 0px; }
+.punc_comma>.col2>.row5{ background-position: 0 -100px; }
+
+/* Punct . */
+.punc_period>.col2>.row5{ background-position: -40px -100px; }
+
+/* Punct Left Double Quote */
+.punc_ldquo>.col1>.row1{ background-position: 0px 0px; }
+.punc_ldquo>.col1>.row2{ background-position: -40px -20px; }
+
+.punc_ldquo>.col2>.row1{ background-position: -80px -100px; }
+.punc_ldquo>.col2>.row2{ background-position: -40px -20px; }
+
+/* Punct Right Double Quote */
+.punc_rdquo>.col2>.row1{ background-position: -80px -100px; }
+.punc_rdquo>.col2>.row2{ background-position: -20px -20px; }
+
+.punc_rdquo>.col3>.row1{ background-position: 0px 0px; }
+.punc_rdquo>.col3>.row2{ background-position: -20px -20px; }
+
+/* Punct Left Single Quote */
+.punc_lsquo>.col2>.row1{ background-position: -80px -100px; }
+.punc_lsquo>.col2>.row2{ background-position: -40px -20px; }
+
+/* Punct Right Single Quote */
+.punc_rsquo>.col2>.row1{ background-position: -80px -100px; }
+.punc_rsquo>.col2>.row2{ background-position: -20px -20px; }
+
+/* Punct Bullet */
+.punc_bull>.col1>.row3{ background-position: -60px 0px; }
+
+.punc_bull>.col2>.row2{ background-position: -80px 0px; }
+.punc_bull>.col2>.row3{ background-position: 0px 0px; }
+.punc_bull>.col2>.row4{ background-position: -40px 0px; }
+
+.punc_bull>.col3>.row3{ background-position: -20px 0px; }
+
+/* Punct Star */
+.punc_star>.col1>.row3{ background-position: -40px -20px; }
+.punc_star>.col1>.row4{ background-position: -60px -20px; }
+
+.punc_star>.col2>.row2{ background-position: -80px 0px; }
+.punc_star>.col2>.row3{ background-position: 0px 0px; }
+.punc_star>.col2>.row4{ background-position: 0px 0px; }
+.punc_star>.col2>.row5{ background-position: -60px -80px; }
+
+.punc_star>.col3>.row3{ background-position: -20px -20px; }
+.punc_star>.col3>.row4{ background-position: -80px -20px; }
+
+/* Punct Open Bracket */
+.punc_obrac>.col1>.row1{ background-position: 0px 0px; }
+.punc_obrac>.col1>.row2{ background-position: 0px -80px; }
+.punc_obrac>.col1>.row3{ background-position: 0px 0px; }
+.punc_obrac>.col1>.row4{ background-position: 0px 0px; }
+.punc_obrac>.col1>.row5{ background-position: 0px 0px; }
+
+.punc_obrac>.col2>.row1{ background-position: -80px -100px; }
+.punc_obrac>.col2>.row5{ background-position: -40px -100px; }
+
+/* Punct Close Bracket */
+.punc_cbrac>.col3>.row1{ background-position: 0px 0px; }
+.punc_cbrac>.col3>.row2{ background-position: -20px -80px; }
+.punc_cbrac>.col3>.row3{ background-position: 0px 0px; }
+.punc_cbrac>.col3>.row4{ background-position: 0px 0px; }
+.punc_cbrac>.col3>.row5{ background-position: 0px 0px; }
+
+.punc_cbrac>.col2>.row1{ background-position: -80px -100px; }
+.punc_cbrac>.col2>.row5{ background-position: -40px -100px; }
+
+/* Punct Open Curly Bracket */
+
+.punc_ocbrac>.col1>.row3{ background-position: -60px 0px; }
+
+.punc_ocbrac>.col2>.row1{ background-position: -80px -100px; }
+.punc_ocbrac>.col2>.row2{ background-position: 0px 0px; }
+.punc_ocbrac>.col2>.row3{ background-position: -80px -40px; }
+.punc_ocbrac>.col2>.row4{ background-position: 0px 0px; }
+.punc_ocbrac>.col2>.row5{ background-position: -40px -100px; }
+
+.punc_ocbrac>.col3>.row1{ background-position: -20px -20px; }
+.punc_ocbrac>.col3>.row5{ background-position: -80px -20px; }
+
+/* Punct Close Curly Bracket */
+.punc_ccbrac>.col3>.row3{ background-position: -20px 0px; }
+
+.punc_ccbrac>.col2>.row1{ background-position: -80px -100px; }
+.punc_ccbrac>.col2>.row2{ background-position: 0px 0px; }
+.punc_ccbrac>.col2>.row3{ background-position: -40px -40px; }
+.punc_ccbrac>.col2>.row4{ background-position: 0px 0px; }
+.punc_ccbrac>.col2>.row5{ background-position: -40px -100px; }
+
+.punc_ccbrac>.col1>.row1{ background-position: -40px -20px; }
+.punc_ccbrac>.col1>.row5{ background-position: -60px -20px; }
+
+/* Punct Plus */
+.punc_plus>.col1>.row3{ background-position: 0px 0px; }
+
+.punc_plus>.col2>.row2{ background-position: 0px 0px; }
+.punc_plus>.col2>.row3{ background-position: 0px 0px; }
+.punc_plus>.col2>.row4{ background-position: 0px 0px; }
+
+.punc_plus>.col3>.row3{ background-position: 0px 0px; }
+
+/* Punct Minus */
+.punc_minus>.col1>.row3{ background-position: 0px 0px; }
+.punc_minus>.col2>.row3{ background-position: 0px 0px; }
+.punc_minus>.col3>.row3{ background-position: 0px 0px; }
+
+/* Punct Equals */
+.punc_equals>.col1>.row2{ background-position: 0px -80px; }
+.punc_equals>.col1>.row4{ background-position: 0px 0px; }
+
+.punc_equals>.col2>.row2{ background-position: 0px 0px; }
+.punc_equals>.col2>.row4{ background-position: 0px 0px; }
+
+.punc_equals>.col3>.row2{ background-position: -20px -80px; }
+.punc_equals>.col3>.row4{ background-position: 0px 0px; }
+
+/* Punct Under */
+.punc_under>.col1>.row5{ background-position: 0px 0px; }
+.punc_under>.col2>.row5{ background-position: -40px -100px; }
+.punc_under>.col3>.row5{ background-position: 0px 0px; }
+
+/* Punct colon */
+.punc_colo>.col2>.row2{ background-position: 0px 0px; }
+.punc_colo>.col2>.row4{ background-position: 0px 0px; }
+
+/* Punct semi-colon */
+.punc_scolo>.col2>.row2{ background-position: 0px 0px; }
+.punc_scolo>.col2>.row4{ background-position: 0px 0px; }
+.punc_scolo>.col2>.row5{ background-position: 0 -100px; }
+
+/* TODO : Punct Slash / */
+/* TODO : Punct Back-Slash \ */
+/* TODO : Punct Pound £ */
+/* TODO : Punct at @ */
+/* TODO : Punct Carrot ^ */

@@ -1,0 +1,60 @@
+<!-- Train Matrix jQuery Plugin 1.0 (http://jedidiah.eu/code/javascript/trainmatrix/) by Jedidiah (http://jedidiah.eu/) -->
+
+<!DOCTYPE HTML><html lang="en-gb"><head><meta charset="UTF-8">
+<title>Train Matrix jQuery Plugin</title>
+<style type="text/css">
+	
+	/* These are just the styles used to make this demo page look a bit prettier, look in the linked css file or download the plugin to look at the CSS used for the Matrix */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}html{width:100%;overflow-y:scroll;font:95% 'Helvetica Neue',Helvetica,"Lucida Grande",Verdana,Arial,sans-serif;background-color:#ddd;}body{width:100%;padding:2em 0;}h1,p,ul{padding:1em 2em;max-width:30em;line-height:1.75;color:#777;float:left;clear:left;}h1{line-height:1;max-width:540px;}h1>a{text-decoration:none;color:#999;font-size:0.6em;padding-left:20em;}h1>strong{color:#2e5d24;display:block;font:4em 'Helvetica Neue Light','HelveticaNeue-Light','Helvetica Light',Helvetica,"Lucida Grande",Verdana,sans-serif;text-shadow:1px 1px 0 #fff;}#matrixexample{display:block;width:100%;float:left;background-color:#000;color:#2e5d24;margin:-0.5em 0 1em 0;clear:both;}p>a{color:#2e5d24;}#customtext{min-width:20em;padding:0.5em;background-color:#fff;border:none;color:#999;}#customtext:hover,#customtext:active,#customtext:focus{color:#333;background-color:#eee;}.controls{float:left;clear:both;}p.smallprint{margin-bottom:-1.5em;float:none;clear:both;text-align:center;padding:2em 0 0 0;width:100%;max-width:100%;}p.smallprint,p.smallprint>a{color:#999;text-decoration:none;}p.smallprint>a:hover{text-decoration:underline;}
+/* These are just the styles used to make this demo page look a bit prettier, look in the linked css file or download the plugin to look at the CSS used for the Matrix */
+</style>
+
+<!-- You need to link to the CSS and JS files as well as the main jQuery file -->
+<link rel="stylesheet" type="text/css" href="min/matrix-min.css" media="all">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="min/jquery.trainmatrix.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		
+		//This is the code that turns the page title into the matrix
+		$('h1>strong').trainmatrix();
+
+		// This is the code for the 'try your own text form'
+		$('#makeMatrix').submit(function() {
+			$('#matrixexample').trainmatrix({matrixText: $('#customtext').val()});
+			return false;
+		});
+	});
+</script>
+</head><body>
+<h1><strong>Train Matrix</strong>&nbsp;<a href="http://jedidiah.eu/" title="Jedidiah Freelance Multimedia Designer">by Jedidiah Broadbent</a></h1>
+
+<p>Train Matrix is a jQuery plugin that converts letters into a matrix like those used on old <em>First Great Western</em> trains. The text remains selectable and displays without styles. It was inspired by <a href="http://ministryoftype.co.uk/words/article/serene_infoboards/" title="Serene Infoboards | The Ministry of Type">an article on Ministry of Type</a> by <a href="http://aegir.me/" title="Aegir Hallmundur">Aegir Hallmundur</a>. Aegir has mocked up the matrix and alphabet in Illustrator.</p>
+
+<p><img align="right" style="padding-left:10px;" src="min/matrix-20_20.png" width="120" height="120" alt="Matrix 20 20">Train Matrix is relatively light, it only uses one 3KB image, and the minified css and javascript together come to 16KB. This is still a very early version, but you can fork or download the source (including the minified versions). At the moment this plugin hasn't been tested in anything, if you find any issues <a href="mailto:&#x68;&#x65;&#x6C;&#x6C;&#x6F;&#x40;&#x6A;&#x65;&#x64;&#x69;&#x64;&#x69;&#x61;&#x68;&#x2E;&#x65;&#x75;">let me know</a>.</p>
+
+<form id="makeMatrix"><p class="controls"><input type="text" id="customtext" value="Try your own text here..."> <input type="submit" value="Update"></p></form>
+<h2 id="matrixexample"></h2>
+
+<p>To use the plugin you first need to upload the files <em style="color:#333;">jquery.trainmatrix.min.js</em> and <em style="color:#333;">matrix-min.css</em> to your server and include links to them in your HTML. You will also need to upload <em style="color:#333;">matrix-20_20.png</em> and depending on where you put the files you will have to update the link to the image in the CSS file.</p>
+
+<p><code style="display:block;clear:both;float:white-space:pre;white-space:nowrap;left;text-align:left;color:#000000; background-color:#ffffff; border:solid #888 1px; padding:0.5em 1em 0.5em 1em; overflow:auto;font-size:small; font-family:'Panic Sans', monospace; "><span style="color:#881280;">&lt;link&nbsp;</span><span style="color:#994500;">rel</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;stylesheet&quot;</span><span style="color:#881280;">&nbsp;</span><span style="color:#994500;">type</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;text/css&quot;</span><span style="color:#881280;">&nbsp;</span><span style="color:#994500;">href</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;matrix-min.css&quot;</span><span style="color:#881280;">&nbsp;</span><span style="color:#994500;">media</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;all&quot;</span><span style="color:#881280;">&gt;</span><br />
+<span style="color:#881280;">&lt;script&nbsp;</span><span style="color:#994500;">src</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js&quot;</span><span style="color:#881280;">&nbsp;</span><span style="color:#994500;">type</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;text/javascript&quot;</span><span style="color:#881280;">&gt;&lt;/script&gt;</span><br />
+<span style="color:#881280;">&lt;script </span><span style="color:#994500;">type</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;text/javascript&quot;</span><span style="color:#881280;">&nbsp;</span><span style="color:#994500;">src</span><span style="color:#881280;">=</span><span style="color:#1a1aa6;">&quot;jquery.trainmatrix.js&quot;</span><span style="color:#881280;">&gt;&lt;/script&gt;</span></code></p>
+<p>To apply the effect to an element:</p>
+<p><code style="display:block;clear:both;float:white-space:pre;white-space:nowrap;left;text-align:left;color:#000000; background-color:#ffffff; border:solid #888 1px; padding:0.5em 1em 0.5em 1em; overflow:auto;font-size:small; font-family:'Panic Sans', monospace;">$(<span style="color:#760f15;">'#matrixexample'</span>).<span style="color:#003369;">trainmatrix</span>();</code></p>
+<p>To apply the effect to an element with a custom string:</p>
+<p><code style="display:block;clear:both;float:white-space:pre;white-space:nowrap;left;text-align:left;color:#000000; background-color:#ffffff; border:solid #888 1px; padding:0.5em 1em 0.5em 1em; overflow:auto;font-size:small; font-family:'Panic Sans', monospace;">$(<span style="color:#760f15;">'#matrixexample'</span>).<span style="color:#003369;">trainmatrix</span>({matrixText: <span style="color:#760f15;">'This text will be used to generate the matrix'</span>});</code></p>
+<p>There are still quite a few limitations that will be fixed in future versions;</p>
+<ul class="bullets">
+	<li>&bull; Set length of matrix screen in characters</li>
+	<li>&bull; Ability to build Matrix from Array/List with each item as a screen</li>
+	<li>&bull; Serene animation of overflow and transitions between screens</li>
+	<li>&bull; There are currently no numerals</li>
+	<li>&bull; Needs a wider range of punctuation, currently supports<br>. , “ ” ' : + - [ ] ( ) { } • = _ ; *</li>
+	<li>&bull; Support for diacritics using Aegir&rsquo;s additional line on top</li>
+	<li>&bull; Needs support for nested tags and multiple objects at once</li>
+</ul>
+<p>If you have any comments, questions, fixes or new characters please <a href="mailto:&#x68;&#x65;&#x6C;&#x6C;&#x6F;&#x40;&#x6A;&#x65;&#x64;&#x69;&#x64;&#x69;&#x61;&#x68;&#x2E;&#x65;&#x75;">give me an email</a>.</p>
+</body></html>

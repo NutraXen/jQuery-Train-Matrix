@@ -1,0 +1,308 @@
+/* Setup Starting Sizes and positions */
+.letter{display:block;height:100px;float:left;background-color:#2e5d24;border:10px solid #000;}
+.letter>span{display:block;width:20px;height:100px;float:left;}
+.letter>span>span{display:block;overflow:hidden;text-indent:-9999px;width:20px;height:20px;float:left;clear:both;background: transparent url(matrix-20_20.png) no-repeat scroll -100px 0px;}
+.letter>.col1>.row2{ background-position: -100px -60px; }
+.letter>.col3>.row2{ background-position: 0px -60px; }
+.letter>.col2>.row1{ background-position: -100px -100px; }
+.letter>.col2>.row5{ background-position: -60px -100px; }
+
+/* Letter A */
+.let_a>.col1>.row1{ background-position: -60px -20px; }
+.let_a>.col1>.row2{ background-position: 0px -80px; }
+.let_a>.col3>.row2{ background-position: -20px -80px; }
+.let_a>.col2>.row1{ background-position: -80px -100px; }
+.let_a>.col1>.row3, .let_a>.col1>.row4, .let_a>.col1>.row5, .let_a>.col2>.row3, .let_a>.col3>.row3, .let_a>.col3>.row4, .let_a>.col3>.row5{ background-position: 0px 0px; }
+.let_a>.col3>.row1{ background-position: -80px -20px; }
+
+
+/* Letter B */
+.let_b>.col1>.row1, .let_b>.col1>.row3, .let_b>.col1>.row4, .let_b>.col1>.row5, .let_b>.col2>.row3, .let_b>.col3>.row4{ background-position: 0px 0px; }
+.let_b>.col1>.row2{ background-position: 0px -80px; }
+.let_b>.col2>.row1{ background-position: -80px -100px; }
+.let_b>.col2>.row5{ background-position: -40px -100px; }
+.let_b>.col3>.row1{ background-position: -60px -60px; }
+.let_b>.col3>.row2{ background-position: -20px -80px; }
+.let_b>.col3>.row3{ background-position: -80px -40px; }
+.let_b>.col3>.row5{ background-position: -20px -60px; }
+
+
+/* Letter C*/
+.let_c>.col1>.row1{ background-position: -60px -20px; }
+.let_c>.col1>.row2, .let_c>.col1>.row3, .let_c>.col1>.row4, .let_c>.col3>.row1, .let_c>.col3>.row5{ background-position: 0px 0px; }
+.let_c>.col1>.row2{ background-position: 0px -80px; }
+.let_c>.col1>.row5{ background-position: -40px -20px; }
+.let_c>.col2>.row1{ background-position: -80px -100px; }
+.let_c>.col2>.row5{ background-position: -40px -100px; }
+
+
+/* Letter D */
+.let_d>.col1>.row1, .let_d>.col1>.row3, .let_d>.col1>.row4, .let_d>.col1>.row5, .let_d>.col3>.row3, .let_d>.col3>.row4{ background-position: 0px 0px; }
+.let_d>.col1>.row2{ background-position: 0px -80px; }
+.let_d>.col2>.row1{ background-position: -80px -100px; }
+.let_d>.col2>.row5{ background-position: -40px -100px; }
+.let_d>.col3>.row1{ background-position: -60px -60px; }
+.let_d>.col3>.row2{ background-position: -20px -80px; }
+.let_d>.col3>.row5{ background-position: -20px -60px; }
+
+
+/* Letter E */
+.let_e>.col1>.row1, .let_e>.col1>.row3, .let_e>.col1>.row4, .let_e>.col1>.row5, .let_e>.col2>.row3, .let_e>.col3>.row1, .let_e>.col3>.row3, .let_e>.col3>.row5{ background-position: 0px 0px; }
+.let_e>.col1>.row2{ background-position: 0px -80px; }
+.let_e>.col2>.row1{ background-position: -80px -100px; }
+.let_e>.col2>.row5{ background-position: -40px -100px; }
+
+
+/* Letter F */
+.let_f>.col1>.row1, .let_f>.col1>.row3, .let_f>.col1>.row4, .let_f>.col1>.row5, .let_f>.col2>.row3, .let_f>.col3>.row1, .let_f>.col3>.row3{ background-position: 0px 0px; }
+.let_f>.col1>.row2{ background-position: 0px -80px; }
+.let_f>.col2>.row1{ background-position: -80px -100px; }
+
+
+/* Letter G */
+.let_g>.col1>.row3, .let_g>.col1>.row4, .let_g>.col3>.row1, .let_g>.col3>.row5, .let_g>.col3>.row4, .let_g>.col3>.row3{ background-position: 0px 0px; }
+.let_g>.col1>.row1{ background-position: -60px -20px; }
+.let_g>.col1>.row2 { background-position: 0px -80px; }
+.let_g>.col2>.row3{ background-position: -60px 0px; }
+.let_g>.col1>.row5{ background-position: -40px -20px; }
+.let_g>.col2>.row1{ background-position: -80px -100px; }
+.let_g>.col2>.row5{ background-position: -40px -100px; }
+
+/* Letter H */
+.let_h>.col1>.row1, .let_h>.col1>.row3, .let_h>.col1>.row4, .let_h>.col3>.row4, .let_h>.col1>.row5, .let_h>.col2>.row3, .let_h>.col3>.row1, .let_h>.col3>.row3, .let_h>.col3>.row5{ background-position: 0px 0px; }
+.let_h>.col1>.row2{ background-position: 0px -80px; }
+.let_h>.col3>.row2{ background-position: -20px -80px; }
+
+/* Letter I */
+.let_i>.col1>.row1, .let_i>.col1>.row5, .let_i>.col2>.row2, .let_i>.col2>.row3, .let_i>.col2>.row4, .let_i>.col3>.row1, .let_i>.col3>.row5{ background-position: 0px 0px; }
+.let_i>.col2>.row1{ background-position: -80px -100px; }
+.let_i>.col2>.row5{ background-position: -40px -100px; }
+
+
+/* Letter J */
+.let_j>.col1>.row4, .let_j>.col3>.row1, .let_j>.col3>.row3, .let_j>.col3>.row4{ background-position: 0px 0px; }
+.let_j>.col1>.row5{ background-position: -40px -20px; }
+.let_j>.col2>.row5{ background-position: -40px -100px; }
+.let_j>.col3>.row2{ background-position: -20px -80px; }
+.let_j>.col3>.row5{ background-position: -20px -20px; }
+
+/* Letter K */
+.let_k>.col1>.row1, .let_k>.col1>.row3, .let_k>.col1>.row4, .let_k>.col1>.row5{ background-position: 0px 0px; }
+.let_k>.col1>.row2{ background-position: 0px -80px; }
+.let_k>.col2>.row2, .let_k>.col3>.row1{ background-position: -60px -20px; }
+.let_k>.col2>.row3{ background-position: -80px -40px; }
+.let_k>.col2>.row4, .let_k>.col3>.row5{ background-position: -40px -20px; }
+.let_k>.col3>.row2{ background-position: -20px -60px; }
+.let_k>.col3>.row4{ background-position: -80px -20px; }
+
+/* Letter L */
+.let_l>.col1>.row1{ background-position: 0px 0px; }
+.let_l>.col1>.row2{ background-position: 0px -80px; }
+.let_l>.col1>.row3{ background-position: 0px 0px; }
+.let_l>.col1>.row4{ background-position: 0px 0px; }
+.let_l>.col1>.row5{ background-position: 0px 0px; }
+.let_l>.col2>.row5{ background-position: -40px -100px; }
+.let_l>.col3>.row5{ background-position: 0px 0px; }
+
+/* Letter M */
+.let_m>.col1>.row1{ background-position: -80px -20px; }
+.let_m>.col1>.row2{ background-position: 0px -80px; }
+.let_m>.col1>.row3{ background-position: 0px 0px; }
+.let_m>.col1>.row4{ background-position: 0px 0px; }
+.let_m>.col1>.row5{ background-position: 0px 0px; }
+
+.let_m>.col2>.row2{ background-position: -60px -40px; }
+.let_m>.col2>.row3{ background-position: -40px 0px; }
+
+.let_m>.col3>.row1{ background-position: -60px -20px; }
+.let_m>.col3>.row2{ background-position: -20px -80px; }
+.let_m>.col3>.row3{ background-position: 0px 0px; }
+.let_m>.col3>.row4{ background-position: 0px 0px; }
+.let_m>.col3>.row5{ background-position: 0px 0px; }
+
+/* Letter N */
+.let_n>.col1>.row1{ background-position: 0px 0px; }
+.let_n>.col1>.row2{ background-position: 0px -80px; }
+.let_n>.col1>.row3{ background-position: 0px 0px; }
+.let_n>.col1>.row4{ background-position: 0px 0px; }
+.let_n>.col1>.row5{ background-position: 0px 0px; }
+
+.let_n>.col2>.row2{ background-position: -80px -20px; }
+.let_n>.col2>.row3{ background-position: -40px -20px; }
+
+.let_n>.col3>.row1{ background-position: 0px 0px; }
+.let_n>.col3>.row2{ background-position: -20px -80px; }
+.let_n>.col3>.row3{ background-position: 0px 0px; }
+.let_n>.col3>.row4{ background-position: 0px 0px; }
+.let_n>.col3>.row5{ background-position: 0px 0px; }
+
+/* Letter O */
+.let_o>.col1>.row1{ background-position: -60px -20px; }
+.let_o>.col1>.row2{ background-position: 0px -80px; }
+.let_o>.col1>.row3{ background-position: 0px 0px; }
+.let_o>.col1>.row4{ background-position: 0px 0px; }
+.let_o>.col1>.row5{ background-position: -40px -20px; }
+
+.let_o>.col2>.row1{ background-position: -80px -100px; }
+.let_o>.col2>.row5{ background-position: -40px -100px; }
+
+.let_o>.col3>.row1{ background-position: -80px -20px; }
+.let_o>.col3>.row2{ background-position: -20px -80px; }
+.let_o>.col3>.row3{ background-position: 0px 0px; }
+.let_o>.col3>.row4{ background-position: 0px 0px; }
+.let_o>.col3>.row5{ background-position: -20px -20px; }
+
+/* Letter P */
+.let_p>.col1>.row1{ background-position: 0px 0px; }
+.let_p>.col1>.row2{ background-position: 0px -80px; }
+.let_p>.col1>.row3{ background-position: 0px 0px; }
+.let_p>.col1>.row4{ background-position: 0px 0px; }
+.let_p>.col1>.row5{ background-position: 0px 0px; }
+
+.let_p>.col2>.row1{ background-position: -80px -100px; }
+.let_p>.col2>.row3{ background-position: 0px 0px; }
+
+.let_p>.col3>.row1{ background-position: -80px -20px; }
+.let_p>.col3>.row2{ background-position: -20px -80px; }
+.let_p>.col3>.row3{ background-position: -20px -20px; }
+
+/* Letter Q */
+.let_q>.col1>.row1{ background-position: -60px -20px; }
+.let_q>.col1>.row2{ background-position: 0px -80px; }
+.let_q>.col1>.row3{ background-position: 0px 0px; }
+.let_q>.col1>.row4{ background-position: 0px 0px; }
+.let_q>.col1>.row5{ background-position: -40px -20px; }
+
+.let_q>.col2>.row1{ background-position: -80px -100px; }
+.let_q>.col2>.row3{ background-position: -80px -20px; }
+.let_q>.col2>.row4{ background-position: -40px -20px; }
+.let_q>.col2>.row5{ background-position: -40px -100px; }
+
+.let_q>.col3>.row1{ background-position: -80px -20px; }
+.let_q>.col3>.row2{ background-position: -20px -80px; }
+.let_q>.col3>.row3{ background-position: 0px 0px; }
+.let_q>.col3>.row4{ background-position: 0px 0px; }
+.let_q>.col3>.row5{ background-position: -20px -40px; }
+
+/* Letter R */
+.let_r>.col1>.row1{ background-position: 0px 0px; }
+.let_r>.col1>.row2{ background-position: 0px -80px; }
+.let_r>.col1>.row3{ background-position: 0px 0px; }
+.let_r>.col1>.row4{ background-position: 0px 0px; }
+.let_r>.col1>.row5{ background-position: 0px 0px; }
+
+.let_r>.col2>.row1{ background-position: -80px -100px; }
+.let_r>.col2>.row3{ background-position: 0px 0px; }
+.let_r>.col2>.row4{ background-position: -40px -20px; }
+
+.let_r>.col3>.row1{ background-position: -80px -20px; }
+.let_r>.col3>.row2{ background-position: -20px -80px; }
+.let_r>.col3>.row3{ background-position: -20px -20px; }
+.let_r>.col3>.row4{ background-position: -80px -20px; }
+.let_r>.col3>.row5{ background-position: -40px -20px; }
+
+/* Letter S */
+.let_s>.col1>.row1{ background-position: -60px -20px; }
+.let_s>.col1>.row2{ background-position: 0px -80px; }
+.let_s>.col1>.row3{ background-position: -40px -20px; }
+.let_s>.col1>.row5{ background-position: -40px -20px; }
+
+.let_s>.col2>.row1{ background-position: -80px -100px; }
+.let_s>.col2>.row3{ background-position: 0px 0px; }
+.let_s>.col2>.row5{ background-position: -40px -100px; }
+
+.let_s>.col3>.row1{ background-position: -80px -20px; }
+.let_s>.col3>.row3{ background-position: -80px -20px; }
+.let_s>.col3>.row4{ background-position: 0px 0px; }
+.let_s>.col3>.row5{ background-position: -20px -20px; }
+
+/* Letter T */
+.let_t>.col1>.row1{ background-position: 0px 0px; }
+
+.let_t>.col2>.row1{ background-position: -80px -100px; }
+.let_t>.col2>.row2{ background-position: 0px 0px; }
+.let_t>.col2>.row3{ background-position: 0px 0px; }
+.let_t>.col2>.row4{ background-position: 0px 0px; }
+.let_t>.col2>.row5{ background-position: -40px -100px; }
+
+.let_t>.col3>.row1{ background-position: 0px 0px; }
+
+/* Letter U */
+.let_u>.col1>.row1{ background-position: 0px 0px; }
+.let_u>.col1>.row2{ background-position: 0px -80px; }
+.let_u>.col1>.row3{ background-position: 0px 0px; }
+.let_u>.col1>.row4{ background-position: 0px 0px; }
+.let_u>.col1>.row5{ background-position: -40px -20px; }
+
+.let_u>.col2>.row5{ background-position: -40px -100px; }
+
+.let_u>.col3>.row1{ background-position: 0px 0px; }
+.let_u>.col3>.row2{ background-position: -20px -80px; }
+.let_u>.col3>.row3{ background-position: 0px 0px; }
+.let_u>.col3>.row4{ background-position: 0px 0px; }
+.let_u>.col3>.row5{ background-position: -20px -20px; }
+
+/* Letter V */
+.let_v>.col1>.row1{ background-position: 0px 0px; }
+.let_v>.col1>.row2{ background-position: 0px -80px; }
+.let_v>.col1>.row3{ background-position: 0px 0px; }
+.let_v>.col1>.row4{ background-position: -40px -20px; }
+
+.let_v>.col2>.row4{ background-position: -60px -40px; }
+.let_v>.col2>.row5{ background-position: -60px -80px; }
+
+.let_v>.col3>.row1{ background-position: 0px 0px; }
+.let_v>.col3>.row2{ background-position: -20px -80px; }
+.let_v>.col3>.row3{ background-position: 0px 0px; }
+.let_v>.col3>.row4{ background-position: -20px -20px; }
+
+/* Letter W */
+.let_w>.col1>.row1{ background-position: 0px 0px; }
+.let_w>.col1>.row2{ background-position: 0px -80px; }
+.let_w>.col1>.row3{ background-position: 0px 0px; }
+.let_w>.col1>.row4{ background-position: 0px 0px; }
+.let_w>.col1>.row5{ background-position: -20px -20px; }
+
+.let_w>.col2>.row3{ background-position: -80px 0px; }
+.let_w>.col2>.row4{ background-position: -20px -40px; }
+
+.let_w>.col3>.row1{ background-position: 0px 0px; }
+.let_w>.col3>.row2{ background-position: -20px -80px; }
+.let_w>.col3>.row3{ background-position: 0px 0px; }
+.let_w>.col3>.row4{ background-position: 0px 0px; }
+.let_w>.col3>.row5{ background-position: -40px -20px; }
+
+/* Letter X */
+.let_x>.col1>.row1, .let_x>.col1>.row4, .let_x>.col3>.row4, .let_x>.col1>.row5, .let_x>.col2>.row3, .let_x>.col3>.row1, .let_x>.col3>.row3, .let_x>.col3>.row5{ background-position: 0px 0px; }
+.let_x>.col1>.row2{ background-position: 0px -80px; }
+.let_x>.col3>.row2{ background-position: -20px -80px; }
+.let_x>.col1>.row3{ background-position: -40px -40px;}
+.let_x>.col3>.row3{ background-position: -80px -40px;}
+
+/* Letter Y */
+.let_y>.col1>.row1{ background-position: 0px 0px; }
+.let_y>.col1>.row2{ background-position: 0px -80px; }
+.let_y>.col1>.row3{ background-position: -40px -20px; }
+
+.let_y>.col2>.row3{ background-position: -60px -40px; }
+.let_y>.col2>.row4{ background-position: 0px 0px; }
+.let_y>.col2>.row5{ background-position: -40px -100px; }
+
+.let_y>.col3>.row1{ background-position: 0px 0px; }
+.let_y>.col3>.row2{ background-position: -20px -80px; }
+.let_y>.col3>.row3{ background-position: -20px -20px; }
+
+/* Letter Z */
+.let_z>.col1>.row1{ background-position: 0px 0px; }
+.let_z>.col1>.row3{ background-position: -60px -20px; }
+.let_z>.col1>.row4{ background-position: 0px 0px; }
+.let_z>.col1>.row5{ background-position: 0px 0px; }
+
+.let_z>.col2>.row1{ background-position: -80px -100px; }
+.let_z>.col2>.row2{ background-position: -60px -20px; }
+.let_z>.col2>.row3{ background-position: -20px -20px; }
+.let_z>.col2>.row5{ background-position: -40px -100px; }
+
+.let_z>.col3>.row1{ background-position: 0px 0px; }
+.let_z>.col3>.row2{ background-position: -20px -60px; }
+.let_z>.col3>.row5{ background-position: 0px 0px; }
