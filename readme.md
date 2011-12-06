@@ -4,6 +4,7 @@ Train Matrix is a jQuery plugin that converts letters into a matrix like those u
 
 Train Matrix is relatively light, it only uses one 3KB image, and the minified css and javascript together come to 16KB. This is still a very early version (though was written about 4 years ago and until recently was forgotten), but you can fork or download the source (including the minified versions). At the moment this plugin hasn't been tested in anything so I wouldn't be surprised if it breaks.
 
+There is a demo online at http://jedidiah.eu/code/js/trainmatrix/
 
 ## Examples ##
 
