@@ -37,10 +37,10 @@ $.fn.trainmatrix = function(options) {
 	function charToMatrix(theChar){
 		
 		// What kind of char is it?
-		switch(theChar){
 		switch(theChar.toString()){
 		case '&': theClassChar='punc_amp'; theChar='&amp;'; break;
 		case '!': theClassChar='punc_exc'; break;
+		case ' ': theClassChar='punc_space'; break;
 		case '.': theClassChar='punc_period'; break;
 		case ',': theClassChar='punc_comma'; break;
 		case '"': theClassChar='punc_sdquo'; break;
@@ -70,7 +70,7 @@ $.fn.trainmatrix = function(options) {
 		case ';': theClassChar='punc_scolo'; break;
 		
 		default: theClassChar='let_'+theChar;
-			
+		console.log(theChar, theClassChar);
 		}
 		
 		// Return the markup for the char
