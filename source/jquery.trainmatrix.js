@@ -68,6 +68,8 @@ $.fn.trainmatrix = function(options) {
 		case '}': theClassChar='punc_ccbrac'; break;
 		case ':': theClassChar='punc_colo'; break;
 		case ';': theClassChar='punc_scolo'; break;
+		case '<': theClassChar='punc_lt'; break;
+		case '>': theClassChar='punc_gt'; break;
 		
 		default: theClassChar='let_'+theChar;
 		}
