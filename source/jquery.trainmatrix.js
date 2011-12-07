@@ -38,6 +38,7 @@ $.fn.trainmatrix = function(options) {
 		
 		// What kind of char is it?
 		switch(theChar){
+		switch(theChar.toString()){
 		case '&': theClassChar='punc_amp'; theChar='&amp;'; break;
 		case '!': theClassChar='punc_exc'; break;
 		case '.': theClassChar='punc_period'; break;
