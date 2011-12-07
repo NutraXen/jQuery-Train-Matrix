@@ -70,7 +70,6 @@ $.fn.trainmatrix = function(options) {
 		case ';': theClassChar='punc_scolo'; break;
 		
 		default: theClassChar='let_'+theChar;
-		console.log(theChar, theClassChar);
 		}
 		
 		// Return the markup for the char
