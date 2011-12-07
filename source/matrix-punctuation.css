@@ -138,8 +138,22 @@
 .punc_scolo>.col2>.row4{ background-position: 0px 0px; }
 .punc_scolo>.col2>.row5{ background-position: 0 -100px; }
 
+/* TODO : Punct Pound £ */
+.punc_pound>.col1>.row1{ background-position: -60px -20px; }
+.punc_pound>.col1>.row2{ background-position: 0px -80px; }
+.punc_pound>.col1>.row3{ background-position: 0px 0px; }
+.punc_pound>.col1>.row4{ background-position: -40px -40px; }
+.punc_pound>.col1>.row5{ background-position: 0px 0px; }
+
+.punc_pound>.col2>.row1{ background-position: -80px -100px; }
+.punc_pound>.col2>.row3{ background-position: 0px 0px; }
+.punc_pound>.col2>.row5{ background-position: -40px -100px; }
+
+.punc_pound>.col3>.row1{ background-position: -60px -60px; }
+.punc_pound>.col3>.row5{ background-position: 0px 0px; }
+
+/* TODO : Punct at @ */
+/* TODO : Punct ampersand & */
 /* TODO : Punct Slash / */
 /* TODO : Punct Back-Slash \ */
-/* TODO : Punct Pound £ */
-/* TODO : Punct at @ */
 /* TODO : Punct Carrot ^ */
