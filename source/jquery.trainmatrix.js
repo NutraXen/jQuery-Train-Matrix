@@ -40,6 +40,7 @@ $.fn.trainmatrix = function(options) {
 		switch(theChar.toString()){
 		case '&': theClassChar='punc_amp'; theChar='&amp;'; break;
 		case '!': theClassChar='punc_exc'; break;
+		case '?': theClassChar='punc_question'; break;
 		case ' ': theClassChar='punc_space'; break;
 		case '.': theClassChar='punc_period'; break;
 		case ',': theClassChar='punc_comma'; break;

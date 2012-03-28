@@ -5,6 +5,17 @@
 .punc_exc>.col2>.row4{ background-position: -40px 0px; }
 .punc_exc>.col2>.row5{ background-position: -40px -100px; }
 
+/* Punct ? */
+.punc_question > .col1 > .row1{ background-position: -60px -20px; }
+.punc_question > .col1 > .row2{ background-position: 0px -80px; }
+.punc_question > .col2 > .row1{ background-position: -80px -100px; }
+.punc_question > .col2 > .row3{ background-position: -60px -20px; }
+.punc_question > .col2 > .row4{ background-position: -40px 0px; }
+.punc_question > .col2 > .row5{ background-position: -40px -100px; }
+.punc_question > .col3 > .row1{ background-position: -80px -20px; }
+.punc_question > .col3 > .row2{ background-position: -20px -80px; }
+.punc_question > .col3 > .row3{ background-position: -20px -20px; }
+
 /* Punct , */
 .punc_comma>.col2>.row4{ background-position: 0px 0px; }
 .punc_comma>.col2>.row5{ background-position: 0 -100px; }
@@ -54,6 +65,30 @@
 
 .punc_star>.col3>.row3{ background-position: -20px -20px; }
 .punc_star>.col3>.row4{ background-position: -80px -20px; }
+
+/* Punct Alt Star */
+.punc_alt_star > .col1 > .row1{ background-position: -80px 0px; }
+.punc_alt_star > .col1 > .row2{ background-position: -80px -60px; }
+.punc_alt_star > .col1 > .row3{ background-position: -60px -20px; }
+.punc_alt_star > .col1 > .row4{ background-position: -40px 0px; }
+.punc_alt_star > .col2 > .row2{ background-position: 0px -20px; }
+.punc_alt_star > .col2 > .row3{ background-position: 0px -20px; }
+.punc_alt_star > .col3 > .row1{ background-position: -80px 0px; }
+.punc_alt_star > .col3 > .row2{ background-position: -20px -60px; }
+.punc_alt_star > .col3 > .row3{ background-position: -80px -20px; }
+.punc_alt_star > .col3 > .row4{ background-position: -40px 0px; }
+
+/* Punct Multiply */
+.punc_multiply > .col1 > .row1{ background-position: -80px 0px; }
+.punc_multiply > .col1 > .row2{ background-position: -80px -60px; }
+.punc_multiply > .col1 > .row3{ background-position: -60px -20px; }
+.punc_multiply > .col1 > .row4{ background-position: -40px 0px; }
+.punc_multiply > .col2 > .row2{ background-position: -60px -40px; }
+.punc_multiply > .col2 > .row3{ background-position: -20px -40px; }
+.punc_multiply > .col3 > .row1{ background-position: -80px 0px; }
+.punc_multiply > .col3 > .row2{ background-position: -20px -60px; }
+.punc_multiply > .col3 > .row3{ background-position: -80px -20px; }
+.punc_multiply > .col3 > .row4{ background-position: -40px 0px; }
 
 /* Punct Open Bracket */
 .punc_obrac>.col1>.row1{ background-position: 0px 0px; }

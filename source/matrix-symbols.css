@@ -1,0 +1,58 @@
+/* Symbol Key */
+.symbol_key > .col1 > .row1{ background-position: -60px -20px; }
+.symbol_key > .col1 > .row2{ background-position: -80px -60px; }
+.symbol_key > .col2 > .row1{ background-position: -80px -100px; }
+.symbol_key > .col2 > .row2{ background-position: 0px 0px; }
+.symbol_key > .col2 > .row3{ background-position: 0px 0px; }
+.symbol_key > .col2 > .row4{ background-position: 0px 0px; }
+.symbol_key > .col2 > .row5{ background-position: -20px -100px; }
+.symbol_key > .col3 > .row1{ background-position: -80px -20px; }
+.symbol_key > .col3 > .row2{ background-position: -20px -60px; }
+.symbol_key > .col3 > .row3{ background-position: -20px 0px; }
+.symbol_key > .col3 > .row4{ background-position: -20px 0px; }
+.symbol_key > .col3 > .row5{ background-position: -20px 0px; }
+
+/* Symbol House */
+.symbol_house > .col1 > .row3{ background-position: -60px -20px; }
+.symbol_house > .col1 > .row4{ background-position: 0px 0px; }
+.symbol_house > .col1 > .row5{ background-position: 0px 0px; }
+.symbol_house > .col2 > .row2{ background-position: -80px 0px; }
+.symbol_house > .col2 > .row3{ background-position: 0px 0px; }
+.symbol_house > .col2 > .row4{ background-position: 0px 0px; }
+.symbol_house > .col3 > .row3{ background-position: -80px -20px; }
+.symbol_house > .col3 > .row4{ background-position: 0px 0px; }
+.symbol_house > .col3 > .row5{ background-position: 0px 0px; }
+
+/* Symbol Down Arrow */
+.symbol_down > .col1 > .row2{ background-position: -60px -60px; }
+.symbol_down > .col1 > .row3{ background-position: -40px -20px; }
+.symbol_down > .col2 > .row1{ background-position: -80px -100px; }
+.symbol_down > .col2 > .row2{ background-position: 0px 0px; }
+.symbol_down > .col2 > .row3{ background-position: 0px 0px; }
+.symbol_down > .col2 > .row4{ background-position: -40px 0px; }
+.symbol_down > .col3 > .row2{ background-position: -40px -60px; }
+.symbol_down > .col3 > .row3{ background-position: -20px -20px; }
+
+/* Symbol Up Arrow */
+.symbol_up > .col1 > .row3{ background-position: -60px -20px; }
+.symbol_up > .col1 > .row4{ background-position: -40px 0px; }
+.symbol_up > .col2 > .row2{ background-position: -80px 0px; }
+.symbol_up > .col2 > .row3{ background-position: 0px 0px; }
+.symbol_up > .col2 > .row4{ background-position: 0px 0px; }
+.symbol_up > .col2 > .row5{ background-position: -40px -100px; }
+.symbol_up > .col3 > .row3{ background-position: -80px -20px; }
+.symbol_up > .col3 > .row4{ background-position: -40px 0px; }
+
+/* Symbol Right Arrow */
+.symbol_right > .col1 > .row3{ background-position: 0px 0px; }
+.symbol_right > .col2 > .row2{ background-position: -80px -20px; }
+.symbol_right > .col2 > .row3{ background-position: 0px 0px; }
+.symbol_right > .col2 > .row4{ background-position: -20px -20px; }
+.symbol_right > .col3 > .row3{ background-position: -20px 0px; }
+
+/* Symbol Left Arrow */
+.symbol_left > .col1 > .row3{ background-position: -60px 0px; }
+.symbol_left > .col2 > .row2{ background-position: -60px -20px; }
+.symbol_left > .col2 > .row3{ background-position: 0px 0px; }
+.symbol_left > .col2 > .row4{ background-position: -40px -20px; }
+.symbol_left > .col3 > .row3{ background-position: 0px 0px; }
