@@ -30,7 +30,7 @@ $(element).trainmatrix({matrixText: 'This text will be used to generate the matr
 
 ## Limitations ##
 
-There are currently no numbers. The only punctuation that is currently supported are the characters . , &ldquo; &rdquo; &#x27; : + - [ ] ( ) { } &bull; = _ ; *
+The only punctuation that is currently supported are the characters . , &ldquo; &rdquo; &#x27; : + - [ ] ( ) { } &bull; = _ ; * &gt; &lt; @ &pound; ^ \ /
 
 
 Stick to A-Z and basic punctuation and you should be fine.
